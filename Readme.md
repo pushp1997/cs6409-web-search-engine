@@ -24,8 +24,10 @@ $ scrapy crawl wikipedia
 
 ### 3. Index the scraped documents
 
-```bash
+Make sure to remove "index/" folder from the project director if it exists.
 
+```bash
+$ python indexer.py
 ```
 
 ### 4. Run sample queries on the indexed documents
