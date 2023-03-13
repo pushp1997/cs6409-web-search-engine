@@ -32,6 +32,15 @@ $ python indexer.py
 
 ### 4. Run sample queries on the indexed documents
 
-```bash
+Add your queries to the `queries` list in `query.py`. For sample these queries have been written:
+* "cork city"
+* "aerlingus"
+* "ireland"
+* "india"
 
+```bash
+$ python query.py
 ```
+
+Surprisingly, even if the starting point of the crawler was a wikipedia page for Cork City,
+but search term "india" came out with a better score during testing.
